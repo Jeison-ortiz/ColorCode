@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/resistor_imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resistencia"
+        tools:ignore="ContentDescription" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resistor_imageView">
+
+
+        <Button
+            android:id="@+id/marron_button_columna1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#993300"
+            android:text="@string/marronf1"
+            android:textColor="#993300" />
+
+        <Button
+            android:id="@+id/rojo_button_columna1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F10909"
+            android:text="@string/rojof1"
+            android:textColor="#F10909" />
+
+        <Button
+            android:id="@+id/naranja_button_columna1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F83D02"
+            android:text="@string/naranjaf1"
+            android:textColor="#F83D02" />
+
+        <Button
+            android:id="@+id/amarillo_button_columna"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F8D805"
+            android:text="@string/amarillof1"
+            android:textColor="#F8D805" />
+
+        <Button
+            android:id="@+id/verde_button_columna1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#2DF317"
+            android:text="@string/verdef1"
+            android:textColor="#2DF317" />
+
+        <Button
+            android:id="@+id/azul_button_columna1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#1E4BBF"
+            android:text="@string/azulf1"
+
+            android:textColor="#1E4BBF" />
+
+        <Button
+            android:id="@+id/purpura_button_columna1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F2F80CF5"
+
+            android:text="@string/purpuraf1"
+            android:textColor="#F2F80CF5" />
+
+        <Button
+            android:id="@+id/gris_button_columna1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F283817F"
+
+            android:text="@string/grisf1"
+            android:textColor="#F283817F" />
+
+        <Button
+            android:id="@+id/blanco_button_columna1"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F6F5F5"
+            android:text="@string/blanco1"
+            android:textColor="#F6F5F5" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/respuesta_text_view">
+
+        <Button
+            android:id="@+id/negro_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/negrof2"
+            android:background="#000000"
+            android:textColor="#000000" />
+
+
+        <Button
+            android:id="@+id/marron_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#993300"
+            android:text="@string/marronf2"
+            android:textColor="#993300" />
+
+        <Button
+            android:id="@+id/rojo_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F10909"
+            android:text="@string/rojof2"
+            android:textColor="#F10909" />
+
+        <Button
+            android:id="@+id/naranja_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F83D02"
+            android:text="@string/naranjaf2"
+            android:textColor="#F83D02" />
+
+        <Button
+            android:id="@+id/amarillo_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F8D805"
+            android:text="@string/amarillof2"
+            android:textColor="#F8D805" />
+
+        <Button
+            android:id="@+id/verde_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#2DF317"
+            android:text="@string/verdef2"
+            android:textColor="#2DF317" />
+
+        <Button
+            android:id="@+id/azul_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#1E4BBF"
+            android:text="@string/azulf2"
+
+            android:textColor="#1E4BBF" />
+
+        <Button
+            android:id="@+id/purpura_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#ff0095"
+
+            android:text="@string/purpuraf2"
+            android:textColor="#ff0095" />
+
+        <Button
+            android:id="@+id/gris_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#CCCCCC"
+
+            android:text="@string/grisf2"
+            android:textColor="#CCCCCC" />
+
+        <Button
+            android:id="@+id/blanco_button_columna2"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F6F5F5"
+            android:text="@string/blanco2"
+            android:textColor="#F6F5F5" />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resistor_imageView">
+
+        <Button
+            android:id="@+id/negro_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#000000"
+            android:text="@string/negrof3"
+            android:textColor="#000000" />
+
+
+        <Button
+            android:id="@+id/marron_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#993300"
+            android:text="@string/marronf3"
+            android:textColor="#993300" />
+
+        <Button
+            android:id="@+id/rojo_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#FF0000"
+            android:text="@string/rojof3"
+            android:textColor="#FF0000" />
+
+        <Button
+            android:id="@+id/naranja_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#C83D02"
+            android:text="@string/naranjaf3"
+            android:textColor="#C83D02" />
+
+        <Button
+            android:id="@+id/amarillo_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F8D805"
+            android:text="@string/amarillof3"
+            android:textColor="#F8D805" />
+
+        <Button
+            android:id="@+id/verde_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#008000"
+            android:text="@string/verdef3"
+            android:textColor="#008000" />
+
+        <Button
+            android:id="@+id/azul_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#0000FF"
+            android:text="@string/azulf3"
+
+            android:textColor="#0000FF" />
+
+        <Button
+            android:id="@+id/purpura_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#ff0095"
+
+            android:text="@string/purpuraf3"
+            android:textColor="#ff0095" />
+
+        <Button
+            android:id="@+id/gris_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#808080"
+
+            android:text="@string/grisf3"
+            android:textColor="#808080" />
+
+        <Button
+            android:id="@+id/blanco_button_columna3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#F6F5F5"
+            android:text="@string/blanco3"
+            android:textColor="#F6F5F5" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/columna1_textView"
+        android:layout_width="10dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="9dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/resistor_imageView"
+        app:layout_constraintStart_toStartOf="@+id/resistor_imageView"
+        app:layout_constraintTop_toTopOf="@+id/resistor_imageView"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/columna2_textView"
+        android:layout_width="10dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/resistor_imageView"
+        app:layout_constraintEnd_toStartOf="@+id/columna3_textView"
+        app:layout_constraintStart_toEndOf="@+id/columna1_textView"
+        app:layout_constraintTop_toTopOf="@+id/resistor_imageView"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <TextView
+        android:id="@+id/columna3_textView"
+        android:layout_width="10dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="146dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/resistor_imageView"
+        app:layout_constraintEnd_toEndOf="@+id/resistor_imageView"
+        app:layout_constraintTop_toTopOf="@+id/resistor_imageView"
+        app:layout_constraintVertical_bias="0.447" />
+
+    <TextView
+        android:id="@+id/respuesta_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resistor_imageView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

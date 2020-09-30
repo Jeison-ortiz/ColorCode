@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ColorCode</string>
+
+    <string name="negrof1">Negrof1</string>
+    <string name="negrof2">Negrof2</string>
+    <string name="negrof3">Negrof3</string>
+
+    <string name="marronf1">Marronf1</string>
+    <string name="marronf2">Marronf2</string>
+    <string name="marronf3">Marronf3</string>
+
+    <string name="rojof1">Rojof1</string>
+    <string name="rojof2">Rojof2</string>
+    <string name="rojof3">Rojof3</string>
+
+    <string name="naranjaf1">Naranjaf1</string>
+    <string name="naranjaf2">Naranjaf2</string>
+    <string name="naranjaf3">Naranjaf3</string>
+
+    <string name="amarillof1">Amarillof1</string>
+    <string name="amarillof2">Amarillof2</string>
+    <string name="amarillof3">Amarillof3</string>
+
+    <string name="verdef1">Verdef1</string>
+    <string name="verdef2">Verdef2</string>
+    <string name="verdef3">Verdef3</string>
+
+    <string name="azulf1">Azulf1</string>
+    <string name="azulf2">Azulf2</string>
+    <string name="azulf3">Azulf3</string>
+
+    <string name="purpuraf1">Purpuraf1</string>
+    <string name="purpuraf2">Purpuraf2</string>
+    <string name="purpuraf3">Purpuraf3</string>
+
+    <string name="grisf1">Grisf1</string>
+    <string name="grisf2">Grisf2</string>
+    <string name="grisf3">Grisf3</string>
+
+    <string name="blanco1">Blanco1</string>
+    <string name="blanco2">Blanco2</string>
+    <string name="blanco3">Blanco3</string>
+    <string name="color_col1">Color_col1</string>
+    <string name="color_col2">Color_col2</string>
+    <string name="color_col3">Color_col3</string>
+    <string name="respuesta" />
+    <string name="rta_total">Rta_total</string>
+    <string name="franjaizq">FranjaIzq</string>
+    <string name="franjacentral">FranjaCentral</string>
+    <string name="franjaderecha">FranjaDerecha</string>
+
+</resources>
